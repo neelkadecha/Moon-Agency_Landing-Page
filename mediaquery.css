@@ -1,0 +1,188 @@
+@media screen and (max-width:600px) {
+    .padding {
+        padding: 0px 20px;
+    }
+
+    #main {
+        position: relative;
+    }
+
+    nav {
+        padding: 0 10px;
+        height: 70px;
+    }
+
+    .logo-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .login-btn {
+        font-size: 15px;
+        padding: 8px 15px;
+    }
+
+    .hero-para h1 {
+        font-size: 12vw;
+        line-height: 13vw;
+    }
+
+    .hero-para p {
+        margin-top: 50px;
+        font-size: 3.5vw;
+        line-height: 4vw;
+        padding: 0px 80px;
+    }
+
+    .hero-mail-sec {
+        margin-top: 50px;
+        padding: 0 80px;
+    }
+
+    .hero-mail-sec input {
+        font-size: 15px;
+        height: 40px;
+    }
+
+    .hero-mail-sec button {
+        font-size: 12px;
+        padding: 5px 10px;
+        left: 65%;
+        height: 35px;
+    }
+
+    #scroller-section h1 {
+        font-size: 5vw;
+        padding: 20px 0;
+    }
+
+    .scroller {
+        width: 300%;
+        margin-top: 0;
+        height: 5vh;
+        animation: scroller 10s linear infinite;
+
+    }
+
+    .scroller img {
+        height: 20px;
+    }
+
+    @keyframes scroller {
+        from {
+            transform: translate(0);
+        }
+
+        to {
+            transform: translate(-50%);
+        }
+    }
+
+    .container-header {
+        font-size: 15px;
+    }
+    #meet-moon-section{
+        height: auto;
+    }
+    .meet-moon-container p {
+        font-size: 4vw;
+        line-height: 4.5vw;
+        width: 90%;
+        /* background-color: aqua; */
+    }
+    .h1 {
+        font-size: 5vw;
+        line-height: 5vw;
+    }
+    .box img {
+        display: none;
+    }
+    .service-top {
+        flex-direction: column;
+        height: auto;
+    }
+    .service-container h1{
+        margin-top: 20px;
+        font-size: 5vw;
+    }
+    .service-container p {
+        font-size: 4vw;
+        line-height: 4.3vw;
+    }
+    .service-bottom {
+        flex-direction: column;
+        height: auto;
+    }
+    #work-process-section {
+        height: 130vh;
+        justify-content: start;
+    }
+    .process-container {
+        flex-direction: column;
+    }
+    #testimonial-section  {
+        display: none;
+    }
+    .faq-container {
+        /* background-color: aqua; */
+        flex-direction: column;
+        height: auto;
+        gap: 0;
+    }
+    .left-faq, .right-faq {
+        width: 100%;
+    }
+
+    .right-faq {
+        display: none;
+    }
+    #view-count-section {
+        margin: 40px 0;
+        display: block;
+    }
+    #view-count-section>div{
+        margin-bottom: 20px;
+    }
+    #view-count-section h1 {
+        font-size: 50px;
+    }
+    .contact-container{
+        height: auto;
+        padding: 50px 0;
+    }
+    .contact-container h1 {
+        font-size: 25px;
+    }
+    .contact-container p {
+        font-size: 15px;
+        width: 80%;
+    }
+    .contact-container .hero-mail-sec {
+        width: 100%;
+    }
+    .contact-container .hero-mail-sec button{ 
+        left: 62%;
+    }
+    footer {
+        height: auto;
+        padding: 0px 20px;
+    }
+    .footer-list {
+        display: none;
+    }
+    .copywrite {
+        font-size: 15px;
+    }
+
+    
+    p {
+        /* background-color: rgb(71, 71, 71); */
+        /* font-size: 5vw; */
+        /* line-height: 20px; */
+    }
+
+}
