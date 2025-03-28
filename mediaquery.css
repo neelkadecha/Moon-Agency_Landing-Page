@@ -51,7 +51,7 @@
     .hero-mail-sec button {
         font-size: 12px;
         padding: 5px 10px;
-        left: 65%;
+        left: 62%;
         height: 35px;
     }
 
@@ -165,7 +165,7 @@
         width: 100%;
     }
     .contact-container .hero-mail-sec button{ 
-        left: 62%;
+        left: 60%;
     }
     footer {
         height: auto;
